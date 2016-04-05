@@ -24,7 +24,7 @@ public class TodosServlet extends HttpServlet {
 		// String host = System.getenv("WORKSHOP_DB_SERVICE_HOST");
 		// String port = System.getenv("WORKSHOP_DB_SERVICE_PORT");
 		// String database = System.getenv("MYSQL_DATABASE");
-		return new TodoStorageJDBCMysql(host, port, database, login, password);
+		// return new TodoStorageJDBCMysql(host, port, database, login, password);
 	}
 
 	@Override
